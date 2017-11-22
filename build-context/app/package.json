@@ -1,0 +1,10 @@
+{
+  "name": "react-admin",
+  "version": "0.0.1",
+  "description": "Simple react admin app",
+  "main": "index.js",
+  "repository": "https://github.com/jeremy091/react-admin.git",
+  "author": "Jeremy Melnyk",
+  "license": "MIT",
+  "private": false
+}
