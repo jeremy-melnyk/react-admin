@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+ server:
+  image: "node:9"
+  env_file: ./.env
+  ports:
+   - "3000:3000"
+   - "3001:3001"
+   - "4000:4000"
+   - "4001:4001"
+  entrypoint: ["/bin/bash"]
+  volumes:
+   - "./${HOST_APP}:${CONTAINER_APP}"
+  networks:
+   - backend
+
+networks:
+ backend:
