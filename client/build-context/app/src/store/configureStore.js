@@ -42,7 +42,7 @@ function configureStoreDev(initialState) {
     reactRouterMiddleware,
   ];
 
-  // Ad support for Redux dev tool
+  // Add support for Redux dev tool
   const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose; // eslint-disable-line no-underscore-dangle
   const store = createStore(rootReducer, initialState, composeEnhancers(
     applyMiddleware(...middlewares)
