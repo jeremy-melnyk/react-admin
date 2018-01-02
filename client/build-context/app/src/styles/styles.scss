@@ -6,18 +6,15 @@ $vin-red: #ff0000;
 
 /* Styles */
 
-body {
-  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  line-height: 1.4em;
-  color: #4d4d4d;
-  min-width: 230px;
-  max-width: 550px;
-  margin: 0 auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  font-weight: 300;
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans');
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
-h2 {
-  color: $vin-blue;
+body {
+  font: 14px 'Alegreya Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
 }

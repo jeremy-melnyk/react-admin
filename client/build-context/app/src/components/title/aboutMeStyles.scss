@@ -1,0 +1,19 @@
+/* Styles */
+
+#aboutme {
+  display: inline-block;
+  padding-top: 5%;
+  padding-left: 5%;
+  font-size: 1.3em;
+  color: white;
+
+  ul {
+    li {
+      padding-top: 0.3em;
+      list-style: none;
+    }
+    a {
+      color: inherit;
+    }
+  }
+}
