@@ -14,7 +14,7 @@
     "sourceType": "module",
     "ecmaFeatures": {
       "jsx": true,
-      "experimentalObjectRestSpread": false
+      "experimentalObjectRestSpread": true
     }
   },
   "env": {

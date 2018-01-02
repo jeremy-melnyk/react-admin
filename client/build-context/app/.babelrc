@@ -4,7 +4,8 @@
       "presets": [
         "env",
         "react",
-        "react-hmre"
+        "react-hmre",
+        "stage-1"
       ]
     },
     "production": {
@@ -21,7 +22,8 @@
             }
           }
         ],
-        "react"
+        "react",
+        "stage-1"
       ],
       "plugins": [
         "transform-react-constant-elements",
@@ -31,7 +33,8 @@
     "test": {
       "presets": [
         "env",
-        "react"
+        "react",
+        "stage-1"
       ]
     }
   }
