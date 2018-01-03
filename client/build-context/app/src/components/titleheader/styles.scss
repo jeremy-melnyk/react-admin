@@ -1,0 +1,22 @@
+/* Styles */
+
+#titleheader {
+  .content {
+    p.prefix {
+      font-style: italic
+    }
+    float: left;
+    margin-left: 10%;
+    margin-top: 22%;
+    font-size: 1.6em;
+    color: white;
+
+    @media (min-width: 320px) and (max-width: 480px) {
+      float: right;
+      font-size: 1em;
+      margin-top: 10%;
+      margin-left: 0;
+      margin-right: 5%;
+    }
+  }
+}

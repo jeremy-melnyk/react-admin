@@ -2,8 +2,12 @@
 
 #portrait {
   width: 100%;
-  min-height: 800px;
+  min-height: 700px;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-image: url("../../assets/images/portrait.jpg");
+  @media (min-width: 320px) and (max-width: 480px) {
+    background-size: contain;
+  }
 }

@@ -1,11 +1,11 @@
 import React from "react";
-import AboutMe from "./AboutMe";
-import "./portraitStyles.scss";
+import TitleHeader from "../titleheader/TitleHeader";
+import "./styles.scss";
 
 const Portrait = () => {
   return (
     <div id="portrait">
-      <AboutMe/>
+      <TitleHeader/>
     </div>
   );
 };

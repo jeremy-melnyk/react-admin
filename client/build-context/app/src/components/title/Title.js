@@ -1,6 +1,6 @@
 import React from "react";
-import Portrait from "./Portrait";
-import "./titleStyles.scss";
+import Portrait from "../portrait/Portrait";
+import "./styles.scss";
 
 const Title = () => {
   return (

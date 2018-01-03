@@ -1,0 +1,25 @@
+/* Styles */
+
+#sectiontitle {
+  .title {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    p {
+      font-weight: bold;
+      font-size: 2em;
+    }
+    .edge-container-left {
+      padding-right: 3%;
+    }
+    .edge-container-right {
+      padding-left: 3%;
+    }
+    .edge {
+      background-color: black;
+      width: 5em;
+      height: 0.15em;
+    }
+  }
+}
